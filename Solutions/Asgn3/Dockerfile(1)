@@ -1,4 +1,4 @@
 FROM hoyosjs/grading_helper
 WORKDIR /app/data/
-ADD ./vunet .
+ADD ./vunet /app/data/
 CMD /bin/bash ./grade.sh

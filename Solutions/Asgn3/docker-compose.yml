@@ -8,7 +8,7 @@ services:
         - .:/usr/src/app
 
     grading_helper:
-      image: grading_helper
+      image: hello-world
       volumes:
         - .:/usr/src/app
       stdin_open: true
